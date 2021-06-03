@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/e2e34c9be1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="city-input">
+        <input
+          type="text"
+          placeholder="Enter a City"
+          autocomplete="off"
+          autofocus="on"
+          id="city-text-input"
+        />
+        <input type="submit" value="Search" />
+      </form>
+      <button>Current Location</button>
+      <br />
+      <i class="fas fa-cloud-sun partly-cloudy"></i>
+      <div class="center">
+        <span class="temperature" id="temperature">22</span
+        ><span class="units"
+          ><a href="#" id="celsius">°C</a>|<a href="#" id="fahrenheit"
+            >°F</a
+          ></span
+        >
+      </div>
+
+      <h2>MILWAUKEE, WISCONSIN, UNITED STATES</h2>
+      <h3>Wednesday, May 26, 2021 | 4:35PM</h3>
+      <img src="src/spotify.png" alt="Spotify Banner" />
+      <div class="row">
+        <div class="col">THU</div>
+        <div class="col">FRI</div>
+        <div class="col">SAT</div>
+        <div class="col">SUN</div>
+        <div class="col">MON</div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <i class="fas fa-cloud-showers-heavy weather"></i>
+        </div>
+        <div class="col">
+          <i class="fas fa-cloud-showers-heavy weather"></i>
+        </div>
+        <div class="col"><i class="fas fa-sun weather"></i></div>
+        <div class="col"><i class="fas fa-cloud-sun weather"></i></div>
+        <div class="col"><i class="fas fa-cloud-sun weather"></i></div>
+      </div>
+      <div class="row">
+        <div class="col">53°/46°</div>
+        <div class="col">49°/47°</div>
+        <div class="col">59°/48°</div>
+        <div class="col">63°/51°</div>
+        <div class="col">68°/54°</div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
