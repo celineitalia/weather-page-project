@@ -57,3 +57,11 @@ img {
 .weather {
   font-size: 50px;
 }
+
+.code {
+  display: block;
+  font-size: 12px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
